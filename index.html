@@ -184,11 +184,25 @@
                     "Person on Phone", "Pathway Curve", "Trees Against Sky", "Fist Bump Stranger",
                     "Person in Hat", "Trash/Recycle Can", "View Toward City"
                 ]
+            },
+            mfah: {
+                name: "Museum of Fine Arts Houston",
+                displayName: "MFAH",
+                centerPrompt: "Cafe Employee!",
+                pool: [
+                    "Eye on Houston Photo", "You as a Painting", "You as a Sculpture", "Selfie with Guard!"
+                    "Contemporary Latin American Artwork", "Anish Kapoor: Cloud Column",
+                    "Cullen Sculpture Garden", "PNC Roof Garden Skyline", "Glassell Sloped Roof",
+                    "Brown Foundation Plaza Fountain", "Kinder Luminous Canopy",
+                    "Kinder Glass-Tube Facade", "Reflecting Pool", "Cullinan Hall",
+                    "Tunnel", "Artwork Over 1,000 Years Old",
+                    "Houston Artist Artwork", "Group Pose by a Sculpture"
+                ]
             }
         };
 
         // --- STATE ---
-        let currentLocationKey = 'hermann';
+        let currentLocationKey = 'mfah';
         let db = null;
         let photoState = new Array(25).fill(null);
         let activeIndex = null;
