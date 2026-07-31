@@ -1,1 +1,1 @@
-Bingo Card for Busi220 class.
+Bingo Card project for BUSI220 class. Validated at Hermann Park.
